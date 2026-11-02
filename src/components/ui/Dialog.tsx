@@ -14,6 +14,7 @@ interface DialogProps {
   variant?: "center" | "sheet" | "fullscreen";
   className?: string;
   closeLabel?: string;
+  size?: "md" | "lg";
   children: React.ReactNode;
 }
 
@@ -21,7 +22,7 @@ interface DialogProps {
  * Native <dialog> shown modally (background is inert), plus an explicit focus
  * trap, Escape and backdrop-click to close, scroll lock, and focus return.
  */
-export function Dialog({ open, onClose, labelledBy, describedBy, variant = "center", className, closeLabel = "Close", children }: DialogProps) {
+export function Dialog({ open, onClose, labelledBy, describedBy, variant = "center", className, closeLabel = "Close", size = "md", children }: DialogProps) {
   const ref = useRef<HTMLDialogElement>(null);
 
   // Declared before the focus trap so the dialog is shown before the trap looks for focusable elements.
@@ -62,7 +63,8 @@ export function Dialog({ open, onClose, labelledBy, describedBy, variant = "cent
       <div
         className={cn(
           "relative w-full overflow-y-auto bg-surface shadow-lift",
-          variant === "center" && "max-h-dvh animate-sheet-up rounded-t-card border border-line sm:max-h-dialog sm:max-w-2xl sm:animate-fade-in sm:rounded-card",
+          variant === "center" && "max-h-dvh animate-sheet-up rounded-t-card border border-line sm:max-h-dialog sm:animate-fade-in sm:rounded-card",
+          variant === "center" && (size === "lg" ? "sm:max-w-5xl" : "sm:max-w-2xl"),
           variant === "sheet" && "max-h-sheet animate-sheet-up rounded-t-card border-t border-line",
           variant === "fullscreen" && "h-full animate-fade-in",
           className,
