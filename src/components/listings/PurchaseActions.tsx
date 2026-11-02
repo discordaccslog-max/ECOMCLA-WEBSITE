@@ -115,7 +115,6 @@ export function PurchaseActions({ slug, name, priceLabel, escrowLine, checkoutGu
             onClick={startCheckout}
             disabled={pending || error?.code === "listing_sold"}
             icon={pending ? null : "lock"}
-            data-autofocus
           >
             {pending ? "Opening secure checkout…" : `Continue to secure payment`}
           </Button>
