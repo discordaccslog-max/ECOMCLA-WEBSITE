@@ -23,8 +23,8 @@ interface DialogProps {
  */
 export function Dialog({ open, onClose, labelledBy, describedBy, variant = "center", className, closeLabel = "Close", children }: DialogProps) {
   const ref = useRef<HTMLDialogElement>(null);
-  useFocusTrap(ref, open);
 
+  // Declared before the focus trap so the dialog is shown before the trap looks for focusable elements.
   useEffect(() => {
     const dialog = ref.current;
     if (!dialog) return;
@@ -38,6 +38,7 @@ export function Dialog({ open, onClose, labelledBy, describedBy, variant = "cent
       document.documentElement.style.overflow = "";
     };
   }, [open]);
+  useFocusTrap(ref, open);
 
   return (
     <dialog

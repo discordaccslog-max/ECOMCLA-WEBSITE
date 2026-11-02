@@ -37,6 +37,8 @@ const W = 1600;
 const H = 1000;
 const font = "font-family='Inter, Helvetica, Arial, sans-serif'";
 
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+
 function write(path, svg) {
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, svg.replace(/\n\s+/g, "\n"));
@@ -71,10 +73,10 @@ function storefront(l) {
     `${l.slug.replace(/-/g, "")}.com`,
     `<rect x="0" y="56" width="${W}" height="38" fill="${c}"/>
     <text x="800" y="81" text-anchor="middle" ${font} font-size="15" fill="#fff">Free US shipping over $50 · 30-day returns</text>
-    <text x="120" y="150" ${font} font-size="26" font-weight="800" fill="#1b1b1b">${l.name}</text>
+    <text x="120" y="150" ${font} font-size="26" font-weight="800" fill="#1b1b1b">${esc(l.name)}</text>
     <g ${font} font-size="16" fill="#3b3b3b"><text x="980" y="148">Shop</text><text x="1060" y="148">Bestsellers</text><text x="1190" y="148">Reviews</text><text x="1300" y="148">About</text></g>
     <rect x="120" y="200" width="1360" height="380" rx="16" fill="${soft}"/>
-    <text x="180" y="340" ${font} font-size="64" font-weight="800" fill="#1b1b1b">${l.line}</text>
+    <text x="180" y="340" ${font} font-size="64" font-weight="800" fill="#1b1b1b">${esc(l.line)}</text>
     <text x="180" y="395" ${font} font-size="22" fill="#4a4a4a">Rated 4.8 by 2,000+ customers</text>
     <rect x="180" y="440" width="220" height="60" rx="30" fill="#1b1b1b"/>
     <text x="290" y="478" text-anchor="middle" ${font} font-size="18" font-weight="700" fill="#fff">Shop now</text>
@@ -103,7 +105,7 @@ function analytics(l) {
     "admin.shopify.com/store/analytics",
     `<rect x="0" y="56" width="260" height="${H - 56}" fill="#ebebeb"/>
     <g ${font} font-size="16" fill="#3b3b3b"><text x="32" y="120">Home</text><text x="32" y="160">Orders</text><text x="32" y="200">Products</text><text x="32" y="240">Customers</text><text x="32" y="280" font-weight="700">Analytics</text><text x="32" y="320">Marketing</text></g>
-    <text x="320" y="112" ${font} font-size="24" font-weight="700" fill="#1b1b1b">Analytics · ${l.name}</text>
+    <text x="320" y="112" ${font} font-size="24" font-weight="700" fill="#1b1b1b">Analytics · ${esc(l.name)}</text>
     ${card(320, "Total sales", "$" + (l.rev.slice(-3).reduce((a, b) => a + b, 0) * 100).toLocaleString("en-US"))}
     ${card(630, "Online store sessions", (l.rev.slice(-1)[0] * 410).toLocaleString("en-US"))}
     ${card(940, "Conversion rate", "2.4%")}
@@ -132,7 +134,7 @@ function ads(l) {
   return chrome(
     "adsmanager.facebook.com/campaigns",
     `<rect x="0" y="56" width="${W}" height="70" fill="#fff" stroke="#e1e4ea"/>
-    <text x="120" y="100" ${font} font-size="22" font-weight="700" fill="#1c1e21">Campaigns · ${l.name}</text>
+    <text x="120" y="100" ${font} font-size="22" font-weight="700" fill="#1c1e21">Campaigns · ${esc(l.name)}</text>
     <rect x="1290" y="76" width="190" height="34" rx="6" fill="#1877f2"/>
     <text x="1385" y="99" text-anchor="middle" ${font} font-size="15" font-weight="600" fill="#fff">Last 30 days</text>
     <rect x="120" y="170" width="1360" height="110" rx="8" fill="#fff" stroke="#e1e4ea"/>

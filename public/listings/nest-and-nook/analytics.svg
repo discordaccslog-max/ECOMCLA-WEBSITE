@@ -7,7 +7,7 @@
 <rect x="0" y="56" width="1600" height="944" fill="#f3f3f3"/>
 <rect x="0" y="56" width="260" height="944" fill="#ebebeb"/>
 <g font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#3b3b3b"><text x="32" y="120">Home</text><text x="32" y="160">Orders</text><text x="32" y="200">Products</text><text x="32" y="240">Customers</text><text x="32" y="280" font-weight="700">Analytics</text><text x="32" y="320">Marketing</text></g>
-<text x="320" y="112" font-family='Inter, Helvetica, Arial, sans-serif' font-size="24" font-weight="700" fill="#1b1b1b">Analytics · Nest & Nook</text>
+<text x="320" y="112" font-family='Inter, Helvetica, Arial, sans-serif' font-size="24" font-weight="700" fill="#1b1b1b">Analytics · Nest &amp; Nook</text>
 <rect x="320" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
 <text x="344" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Total sales</text>
 <text x="344" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">$12,200</text>

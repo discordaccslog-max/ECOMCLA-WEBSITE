@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Manrope } from "next/font/google";
-import { ViewTransition } from "react";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { SkipLink } from "@/components/layout/SkipLink";
@@ -51,11 +50,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <MotionProvider>
           <SkipLink />
           <Header />
-          <ViewTransition name="page">
-            <main id="main" tabIndex={-1} className="outline-none">
-              {children}
-            </main>
-          </ViewTransition>
+          <main id="main" tabIndex={-1} className="outline-none">
+            {children}
+          </main>
           <Footer />
         </MotionProvider>
       </body>
