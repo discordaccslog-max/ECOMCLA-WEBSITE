@@ -1,0 +1,103 @@
+{
+  "thresholdAmount": 2500,
+  "currency": "USD",
+  "periodDays": 30,
+  "refundType": "full-purchase-price",
+  "revenueDefinition": "Gross sales recorded in the store's Shopify admin, less refunds and cancellations, excluding sales tax and shipping charged to customers.",
+  "qualifyingConditions": [
+    {
+      "id": "launch-window",
+      "title": "Launch within 7 days of handover",
+      "detail": "Your first ad campaign goes live within 7 days of the handover call. The {periodDays}-day period starts the day it goes live."
+    },
+    {
+      "id": "creative-schedule",
+      "title": "Follow the provided ad creative schedule",
+      "detail": "Run the supplied creatives in the order and rotation set out in the {periodDays}-day creative schedule. Campaigns are not paused for more than 48 consecutive hours."
+    },
+    {
+      "id": "minimum-spend",
+      "title": "Maintain a minimum ad spend of $50 per day",
+      "detail": "Spend an average of at least $50 per day on Meta and/or TikTok ads across the {periodDays} days, with no single day below $35."
+    },
+    {
+      "id": "store-as-handed-over",
+      "title": "Keep the store as it was handed over",
+      "detail": "Pricing, checkout, product catalogue and supplier stay as delivered. Prices are not cut by more than 10% and the theme is not replaced."
+    },
+    {
+      "id": "fulfil-orders",
+      "title": "Fulfil every order through the provided supplier",
+      "detail": "Orders are placed with the supplier within 48 hours of purchase so customers are not refunded for late dispatch."
+    },
+    {
+      "id": "read-access",
+      "title": "Give us read-only access for the period",
+      "detail": "EcomCla keeps staff-level read access to Shopify and the ad accounts for the {periodDays} days so revenue can be verified without screenshots."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "account-restrictions",
+      "title": "Ad account restrictions caused by your changes",
+      "detail": "Restrictions or bans that follow edits you make to creatives, ad copy, targeting, billing details or page ownership."
+    },
+    {
+      "id": "store-offline",
+      "title": "Days the store was offline or out of stock by your action",
+      "detail": "Periods where the store was password-protected, paused, unpublished, or products were deactivated or set to zero inventory by you."
+    },
+    {
+      "id": "modified-or-resold",
+      "title": "Businesses resold or materially changed",
+      "detail": "Any business transferred, resold, merged into another store or rebranded during the guarantee period."
+    },
+    {
+      "id": "processor-holds",
+      "title": "Payment processor holds you trigger",
+      "detail": "Reserves, holds or payout delays caused by your own payment-processor setup, policies or verification status. Sales still count as revenue."
+    },
+    {
+      "id": "outside-checkout",
+      "title": "Purchases made outside EcomCla checkout",
+      "detail": "Businesses bought through a private arrangement with the seller, or paid for by any method other than EcomCla checkout and escrow."
+    },
+    {
+      "id": "missed-window",
+      "title": "Claims submitted after the claim window",
+      "detail": "Claims received more than {claimWindowDays} days after the {periodDays}-day period ends, or without the evidence listed below."
+    }
+  ],
+  "claimWindowDays": 14,
+  "claimProcess": [
+    {
+      "title": "Submit a claim",
+      "detail": "Use the contact form and choose \"Guarantee claim\", within {claimWindowDays} days of the end of your {periodDays}-day period."
+    },
+    {
+      "title": "Send the evidence",
+      "detail": "Attach the items listed under Evidence. Your buyer success manager will confirm receipt within one business day."
+    },
+    {
+      "title": "We verify",
+      "detail": "We check revenue and conditions using the read-only access you granted. Review takes up to {reviewTimeBusinessDays} business days, and we tell you the outcome in writing."
+    },
+    {
+      "title": "Assets come back",
+      "detail": "If approved, the store, domain, social accounts and creatives transfer back to EcomCla. We send a checklist and handle the transfer with you on a call."
+    },
+    {
+      "title": "You are refunded",
+      "detail": "The full purchase price is returned to the original payment method within {refundTimingBusinessDays} business days of the assets transferring back."
+    }
+  ],
+  "evidenceRequired": [
+    "Shopify Sales over time report covering the {periodDays}-day period, exported as CSV",
+    "Ad spend report from each ad platform used, by day, for the same dates",
+    "Confirmation of the campaign start date (the first ad's delivery date)",
+    "A note of any days campaigns were paused, and why"
+  ],
+  "refundTimingBusinessDays": 10,
+  "reviewTimeBusinessDays": 5,
+  "lastUpdated": "2026-10-14"
+}
