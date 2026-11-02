@@ -57,7 +57,7 @@
   --text-seal--line-height: 0.9;
   --text-seal--letter-spacing: -0.05em;
 
-  --text-stat: clamp(2.5rem, 0.5rem + 5.4vw, 6rem);
+  --text-stat: clamp(2.625rem, 0.5rem + 5.9vw, 6.5rem);
   --text-stat--line-height: 0.95;
   --text-stat--letter-spacing: -0.045em;
 

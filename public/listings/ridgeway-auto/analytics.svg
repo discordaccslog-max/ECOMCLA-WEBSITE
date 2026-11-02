@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<rect width="1600" height="1000" fill="#1b1d22"/>
+<rect x="0" y="0" width="1600" height="56" fill="#24272d"/>
+<circle cx="32" cy="28" r="7" fill="#4a4e57"/><circle cx="56" cy="28" r="7" fill="#4a4e57"/><circle cx="80" cy="28" r="7" fill="#4a4e57"/>
+<rect x="420" y="14" width="760" height="28" rx="14" fill="#1b1d22"/>
+<text x="800" y="33" text-anchor="middle" font-family='Inter, Helvetica, Arial, sans-serif' font-size="14" fill="#8a8f99">admin.shopify.com/store/analytics</text>
+<rect x="0" y="56" width="1600" height="944" fill="#f3f3f3"/>
+<rect x="0" y="56" width="260" height="944" fill="#ebebeb"/>
+<g font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#3b3b3b"><text x="32" y="120">Home</text><text x="32" y="160">Orders</text><text x="32" y="200">Products</text><text x="32" y="240">Customers</text><text x="32" y="280" font-weight="700">Analytics</text><text x="32" y="320">Marketing</text></g>
+<text x="320" y="112" font-family='Inter, Helvetica, Arial, sans-serif' font-size="24" font-weight="700" fill="#1b1b1b">Analytics · Ridgeway Auto</text>
+<rect x="320" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="344" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Total sales</text>
+<text x="344" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">$26,200</text>
+<rect x="630" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="654" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Online store sessions</text>
+<text x="654" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">36,900</text>
+<rect x="940" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="964" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Conversion rate</text>
+<text x="964" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">2.4%</text>
+<rect x="1250" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="1274" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Average order value</text>
+<text x="1274" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">$60</text>
+<rect x="320" y="300" width="1220" height="640" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="344" y="345" font-family='Inter, Helvetica, Arial, sans-serif' font-size="18" font-weight="600" fill="#1b1b1b">Total sales over time</text>
+<line x1="340" y1="880" x2="1520" y2="880" stroke="#dcdcdc"/>
+<rect x="340" y="592" width="70" height="288" rx="4" fill="#5b6cff" opacity="0.55"/><rect x="430.7692307692308" y="580" width="70" height="300" rx="4" fill="#5b6cff" opacity="0.5846153846153846"/><rect x="521.5384615384615" y="572" width="70" height="308" rx="4" fill="#5b6cff" opacity="0.6192307692307693"/><rect x="612.3076923076924" y="584" width="70" height="296" rx="4" fill="#5b6cff" opacity="0.6538461538461539"/><rect x="703.0769230769231" y="620" width="70" height="260" rx="4" fill="#5b6cff" opacity="0.6884615384615385"/><rect x="793.8461538461538" y="604" width="70" height="276" rx="4" fill="#5b6cff" opacity="0.7230769230769232"/><rect x="884.6153846153846" y="556" width="70" height="324" rx="4" fill="#5b6cff" opacity="0.7576923076923078"/><rect x="975.3846153846155" y="548" width="70" height="332" rx="4" fill="#5b6cff" opacity="0.7923076923076924"/><rect x="1066.1538461538462" y="548" width="70" height="332" rx="4" fill="#5b6cff" opacity="0.826923076923077"/><rect x="1156.923076923077" y="552" width="70" height="328" rx="4" fill="#5b6cff" opacity="0.8615384615384616"/><rect x="1247.6923076923076" y="536" width="70" height="344" rx="4" fill="#5b6cff" opacity="0.8961538461538463"/><rect x="1338.4615384615386" y="536" width="70" height="344" rx="4" fill="#5b6cff" opacity="0.9307692307692308"/><rect x="1429.2307692307693" y="520" width="70" height="360" rx="4" fill="#5b6cff" opacity="0.9653846153846155"/>
+</svg>

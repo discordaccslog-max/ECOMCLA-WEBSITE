@@ -43,9 +43,11 @@ export function Header() {
           <Link href="/contact" className="hidden rounded-full px-3.5 py-2 text-sm font-medium text-fg-muted transition-colors hover:text-fg md:block">
             Contact
           </Link>
-          <ButtonLink href="/listings" size="md" icon={null} className="hidden sm:inline-flex">
-            Browse listings
-          </ButtonLink>
+          <span className="hidden sm:block">
+            <ButtonLink href="/listings" size="md" icon={null}>
+              Browse listings
+            </ButtonLink>
+          </span>
           <button
             type="button"
             onClick={() => setOpen(true)}

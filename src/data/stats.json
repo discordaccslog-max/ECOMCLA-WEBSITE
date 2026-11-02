@@ -1,0 +1,11 @@
+{
+  "label": "Current average monthly revenue of pre-built businesses sold",
+  "value": 6421.53,
+  "currency": "USD",
+  "sampleSize": 148,
+  "sampleDescription": "pre-built businesses sold through EcomCla since January 2025",
+  "measurement": "Each business's revenue over its most recent 30 days, verified through read-only Shopify access, averaged across the sample.",
+  "lastUpdated": "2026-11-02",
+  "updateFrequency": "daily",
+  "source": { "kind": "static" }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<rect width="1600" height="1000" fill="#1b1d22"/>
+<rect x="0" y="0" width="1600" height="56" fill="#24272d"/>
+<circle cx="32" cy="28" r="7" fill="#4a4e57"/><circle cx="56" cy="28" r="7" fill="#4a4e57"/><circle cx="80" cy="28" r="7" fill="#4a4e57"/>
+<rect x="420" y="14" width="760" height="28" rx="14" fill="#1b1d22"/>
+<text x="800" y="33" text-anchor="middle" font-family='Inter, Helvetica, Arial, sans-serif' font-size="14" fill="#8a8f99">adsmanager.facebook.com/campaigns</text>
+<rect x="0" y="56" width="1600" height="944" fill="#f0f2f5"/>
+<rect x="0" y="56" width="1600" height="70" fill="#fff" stroke="#e1e4ea"/>
+<text x="120" y="100" font-family='Inter, Helvetica, Arial, sans-serif' font-size="22" font-weight="700" fill="#1c1e21">Campaigns · Ember Kitchen</text>
+<rect x="1290" y="76" width="190" height="34" rx="6" fill="#1877f2"/>
+<text x="1385" y="99" text-anchor="middle" font-family='Inter, Helvetica, Arial, sans-serif' font-size="15" font-weight="600" fill="#fff">Last 30 days</text>
+<rect x="120" y="170" width="1360" height="110" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<g font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#606770"><text x="150" y="210">Amount spent</text><text x="500" y="210">Purchases</text><text x="820" y="210">Purchase ROAS</text><text x="1140" y="210">Cost per purchase</text></g>
+<g font-family='Inter, Helvetica, Arial, sans-serif' font-size="30" font-weight="700" fill="#1c1e21"><text x="150" y="255">$1,457</text><text x="500" y="255">94</text><text x="820" y="255">2.84</text><text x="1140" y="255">$22.00</text></g>
+<g font-family='Inter, Helvetica, Arial, sans-serif' font-size="15" fill="#606770"><text x="190" y="318">Campaign</text><text x="820" y="318">Spend</text><text x="1040" y="318">ROAS</text><text x="1240" y="318">Delivery</text></g>
+<rect x="120" y="330" width="1360" height="92" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<circle cx="160" cy="376" r="8" fill="#31a24c"/>
+<text x="190" y="383" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Prospecting · Broad</text>
+<text x="820" y="383" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">$424</text>
+<text x="1040" y="383" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">2.60</text>
+<text x="1240" y="383" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Active</text><rect x="120" y="440" width="1360" height="92" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<circle cx="160" cy="486" r="8" fill="#31a24c"/>
+<text x="190" y="493" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Prospecting · Interests</text>
+<text x="820" y="493" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">$432</text>
+<text x="1040" y="493" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">2.90</text>
+<text x="1240" y="493" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Active</text><rect x="120" y="550" width="1360" height="92" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<circle cx="160" cy="596" r="8" fill="#31a24c"/>
+<text x="190" y="603" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Retargeting · 30d</text>
+<text x="820" y="603" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">$440</text>
+<text x="1040" y="603" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">3.20</text>
+<text x="1240" y="603" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Active</text><rect x="120" y="660" width="1360" height="92" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<circle cx="160" cy="706" r="8" fill="#c4c8d0"/>
+<text x="190" y="713" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">UGC test · Hooks A–C</text>
+<text x="820" y="713" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">$448</text>
+<text x="1040" y="713" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">1.80</text>
+<text x="1240" y="713" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Paused</text><rect x="120" y="770" width="1360" height="92" rx="8" fill="#fff" stroke="#e1e4ea"/>
+<circle cx="160" cy="816" r="8" fill="#31a24c"/>
+<text x="190" y="823" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Advantage+ Shopping</text>
+<text x="820" y="823" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">$456</text>
+<text x="1040" y="823" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">2.10</text>
+<text x="1240" y="823" font-family='Inter, Helvetica, Arial, sans-serif' font-size="19" fill="#1c1e21">Active</text>
+</svg>

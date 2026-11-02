@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(20 18% 26%)"/><stop offset="1" stop-color="hsl(20 22% 14%)"/></linearGradient></defs>
+<rect width="160" height="160" fill="url(#g)"/>
+<text x="50%" y="50%" dy=".35em" text-anchor="middle" font-family="Manrope, Inter, Helvetica, Arial, sans-serif" font-weight="800" font-size="57.599999999999994" letter-spacing="-1.6" fill="hsl(20 20% 82%)">AK</text>
+</svg>

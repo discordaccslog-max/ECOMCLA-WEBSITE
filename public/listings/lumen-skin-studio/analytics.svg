@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<rect width="1600" height="1000" fill="#1b1d22"/>
+<rect x="0" y="0" width="1600" height="56" fill="#24272d"/>
+<circle cx="32" cy="28" r="7" fill="#4a4e57"/><circle cx="56" cy="28" r="7" fill="#4a4e57"/><circle cx="80" cy="28" r="7" fill="#4a4e57"/>
+<rect x="420" y="14" width="760" height="28" rx="14" fill="#1b1d22"/>
+<text x="800" y="33" text-anchor="middle" font-family='Inter, Helvetica, Arial, sans-serif' font-size="14" fill="#8a8f99">admin.shopify.com/store/analytics</text>
+<rect x="0" y="56" width="1600" height="944" fill="#f3f3f3"/>
+<rect x="0" y="56" width="260" height="944" fill="#ebebeb"/>
+<g font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#3b3b3b"><text x="32" y="120">Home</text><text x="32" y="160">Orders</text><text x="32" y="200">Products</text><text x="32" y="240">Customers</text><text x="32" y="280" font-weight="700">Analytics</text><text x="32" y="320">Marketing</text></g>
+<text x="320" y="112" font-family='Inter, Helvetica, Arial, sans-serif' font-size="24" font-weight="700" fill="#1b1b1b">Analytics · Lumen Skin Studio</text>
+<rect x="320" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="344" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Total sales</text>
+<text x="344" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">$45,200</text>
+<rect x="630" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="654" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Online store sessions</text>
+<text x="654" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">63,140</text>
+<rect x="940" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="964" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Conversion rate</text>
+<text x="964" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">2.4%</text>
+<rect x="1250" y="140" width="290" height="130" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="1274" y="185" font-family='Inter, Helvetica, Arial, sans-serif' font-size="16" fill="#6b6b6b">Average order value</text>
+<text x="1274" y="238" font-family='Inter, Helvetica, Arial, sans-serif' font-size="36" font-weight="700" fill="#1b1b1b">$70</text>
+<rect x="320" y="300" width="1220" height="640" rx="12" fill="#fff" stroke="#e3e3e3"/>
+<text x="344" y="345" font-family='Inter, Helvetica, Arial, sans-serif' font-size="18" font-weight="600" fill="#1b1b1b">Total sales over time</text>
+<line x1="340" y1="880" x2="1520" y2="880" stroke="#dcdcdc"/>
+<rect x="340" y="648.5714285714286" width="51.55555555555556" height="231.42857142857144" rx="4" fill="#5b6cff" opacity="0.55"/><rect x="405.55555555555554" y="648.5714285714286" width="51.55555555555556" height="231.42857142857144" rx="4" fill="#5b6cff" opacity="0.5750000000000001"/><rect x="471.1111111111111" y="634.5454545454545" width="51.55555555555556" height="245.45454545454544" rx="4" fill="#5b6cff" opacity="0.6000000000000001"/><rect x="536.6666666666667" y="636.8831168831168" width="51.55555555555556" height="243.11688311688312" rx="4" fill="#5b6cff" opacity="0.625"/><rect x="602.2222222222222" y="629.8701298701299" width="51.55555555555556" height="250.1298701298701" rx="4" fill="#5b6cff" opacity="0.65"/><rect x="667.7777777777778" y="611.1688311688312" width="51.55555555555556" height="268.83116883116884" rx="4" fill="#5b6cff" opacity="0.675"/><rect x="733.3333333333334" y="597.1428571428571" width="51.55555555555556" height="282.85714285714283" rx="4" fill="#5b6cff" opacity="0.7000000000000001"/><rect x="798.8888888888889" y="604.1558441558441" width="51.55555555555556" height="275.84415584415586" rx="4" fill="#5b6cff" opacity="0.7250000000000001"/><rect x="864.4444444444445" y="601.8181818181818" width="51.55555555555556" height="278.1818181818182" rx="4" fill="#5b6cff" opacity="0.75"/><rect x="930" y="597.1428571428571" width="51.55555555555556" height="282.85714285714283" rx="4" fill="#5b6cff" opacity="0.775"/><rect x="995.5555555555555" y="576.1038961038962" width="51.55555555555556" height="303.89610389610385" rx="4" fill="#5b6cff" opacity="0.8"/><rect x="1061.111111111111" y="627.5324675324675" width="51.55555555555556" height="252.46753246753246" rx="4" fill="#5b6cff" opacity="0.8250000000000001"/><rect x="1126.6666666666667" y="552.7272727272727" width="51.55555555555556" height="327.27272727272725" rx="4" fill="#5b6cff" opacity="0.8500000000000001"/><rect x="1192.2222222222222" y="562.077922077922" width="51.55555555555556" height="317.9220779220779" rx="4" fill="#5b6cff" opacity="0.875"/><rect x="1257.7777777777778" y="548.0519480519481" width="51.55555555555556" height="331.94805194805195" rx="4" fill="#5b6cff" opacity="0.9000000000000001"/><rect x="1323.3333333333335" y="541.038961038961" width="51.55555555555556" height="338.961038961039" rx="4" fill="#5b6cff" opacity="0.925"/><rect x="1388.888888888889" y="522.3376623376623" width="51.55555555555556" height="357.6623376623377" rx="4" fill="#5b6cff" opacity="0.95"/><rect x="1454.4444444444446" y="520" width="51.55555555555556" height="360" rx="4" fill="#5b6cff" opacity="0.9750000000000001"/>
+</svg>

@@ -91,3 +91,19 @@ export function monthsBetween(from: IsoMonth, to: IsoMonth): number {
   const [ty, tm] = to.split("-").map(Number);
   return (ty - fy) * 12 + (tm - fm) + 1;
 }
+
+/** Compact period for cards and tight rows, e.g. "6-mo avg to Oct ’26". */
+export function formatPeriodShort(period: Period): string {
+  switch (period.kind) {
+    case "trailing-months":
+      return `${period.months}-mo avg to ${formatMonthAxis(period.through)}`;
+    case "trailing-days":
+      return `Last ${period.days} days`;
+    case "month":
+      return formatMonthAxis(period.month);
+    case "lifetime":
+      return `Since ${formatMonthAxis(period.since)}`;
+    case "as-of":
+      return `As of ${formatDate(period.date)}`;
+  }
+}
